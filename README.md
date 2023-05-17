@@ -61,6 +61,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Stitches](https://stitches.dev/)
 
 
+## 🔗 Link do projeto
+Se quiser ver o projeto no ar, clique [aqui](https://coffe-delivery-jrs.vercel.app).
+
 ## 🚀 Como executar
 
 Clone o projeto e acesse a pasta do mesmo.
