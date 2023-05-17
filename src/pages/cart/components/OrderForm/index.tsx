@@ -62,7 +62,7 @@ export default function OrderForm({ errors, register }: IOrderFormProps) {
             <label className="form-sm">
               <input
                 type="text"
-                placeholder="CEP"
+                placeholder="CEP (apenas números)"
                 {...register("cep")}
                 maxLength={8}
               />
