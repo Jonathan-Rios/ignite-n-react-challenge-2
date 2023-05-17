@@ -2,7 +2,6 @@ import { MapPinLine } from "phosphor-react";
 import { RoundedCard } from "./styles";
 import { Product } from "./Product";
 import { useStore } from "@/hooks/Store";
-import { useQueryClient } from "@tanstack/react-query";
 import { Fragment, useEffect } from "react";
 import { currencyBRLFormat } from "@/utils/format";
 import { CoffeeProduct } from "@/pages/home/components/Product";
@@ -22,7 +21,6 @@ export function SelectedCoffees({
   selectedCoffees,
 }: SelectedCoffeesProps) {
   const { cart, deliveryTax, productList } = useStore();
-  const queryClient = useQueryClient();
 
   useEffect(() => {
     function getSelectedCoffees() {

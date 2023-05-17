@@ -97,7 +97,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 # Comentário
 
   ➜ npm i @stitches/react
-  ➜ npm i @tanstack/react-query
+
   ➜ npm i axios
   ➜ npm i phosphor-react
   ➜ npm i react-toastify
