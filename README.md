@@ -101,12 +101,12 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
   ➜ npx create-next-app@latest       
 
   ✔ What is your project named? … ignite-n-react-challenge-2
-  ✔ Would you like to use TypeScript with this project? … No / Yes
-  ✔ Would you like to use ESLint with this project? … No / Yes
-  ✔ Would you like to use Tailwind CSS with this project? … No / Yes
-  ✔ Would you like to use `src/` directory with this project? … No / Yes
-  ✔ Use App Router (recommended)? … No / Yes
-  ✔ Would you like to customize the default import alias? … No / Yes
+  ✔ Would you like to use TypeScript with this project? … Yes
+  ✔ Would you like to use ESLint with this project? … Yes
+  ✔ Would you like to use Tailwind CSS with this project? … No
+  ✔ Would you like to use `src/` directory with this project? … Yes
+  ✔ Use App Router (recommended)? … No
+  ✔ Would you like to customize the default import alias? … No
 
   ➜ npm i @stitches/react
 
