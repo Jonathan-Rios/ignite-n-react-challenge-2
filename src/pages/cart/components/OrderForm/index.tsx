@@ -13,7 +13,8 @@ export const registerFormSchema = z.object({
   cep: z
     .string()
     .min(8, { message: "Campo obrigatório" })
-    .max(8, { message: "Limite de 8 caracteres" }),
+    .max(8, { message: "Limite de 8 caracteres" })
+    .regex(/^\d+$/, { message: "Apenas números" }),
   street: z
     .string()
     .min(1, { message: "Campo obrigatório" })
@@ -59,7 +60,12 @@ export default function OrderForm({ errors, register }: IOrderFormProps) {
         <section>
           <div>
             <label className="form-sm">
-              <input type="text" placeholder="CEP" {...register("cep")} />
+              <input
+                type="text"
+                placeholder="CEP"
+                {...register("cep")}
+                maxLength={8}
+              />
               {errors.cep && <FormError>{errors.cep.message}</FormError>}
             </label>
           </div>
@@ -107,7 +113,12 @@ export default function OrderForm({ errors, register }: IOrderFormProps) {
             </label>
 
             <label className="form-xm">
-              <input type="text" placeholder="UF" {...register("state")} />
+              <input
+                type="text"
+                placeholder="UF"
+                {...register("state")}
+                maxLength={2}
+              />
               {errors.state && <FormError>{errors.state.message}</FormError>}
             </label>
           </div>
