@@ -13,11 +13,16 @@ export const PayMethodContent = styled("section", {
     svg: {
       fontSize: "$xl3",
       color: "$yellowDark",
+      marginTop: "2px",
     },
 
     div: {
-      h3: {
-        fontSize: "$lg1",
+      color: "$baseSubtitle",
+      fontSize: "$sm1",
+
+      h4: {
+        fontSize: "$md",
+        fontWeight: "normal",
       },
     },
   },
@@ -45,22 +50,22 @@ export const PayMethodButton = styled("button", {
   border: "2px solid $baseButton",
 
   display: "flex",
-  justifyContent: "center",
   alignItems: "center",
 
   cursor: "pointer",
-  gap: "4px",
+  gap: "8px",
 
   backgroundColor: "$baseButton",
   borderRadius: "6px",
 
-  color: "$baseText",
-
-  height: "38px",
   width: "100%",
 
-  padding: "0.5rem 0.5rem",
+  padding: "1rem",
   transition: "filter 0.2s",
+
+  color: "$baseText",
+  textTransform: "uppercase",
+  fontSize: "$sm2",
 
   svg: {
     fontSize: "$xl2",

@@ -13,11 +13,16 @@ export const AddressContent = styled("section", {
     svg: {
       fontSize: "$xl3",
       color: "$yellowDark",
+      marginTop: "2px",
     },
 
     div: {
-      h3: {
-        fontSize: "$lg1",
+      color: "$baseSubtitle",
+      fontSize: "$sm1",
+
+      h4: {
+        fontSize: "$md",
+        fontWeight: "normal",
       },
     },
   },

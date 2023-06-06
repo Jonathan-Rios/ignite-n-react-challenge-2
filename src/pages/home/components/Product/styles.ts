@@ -12,8 +12,8 @@ export const Container = styled("div", {
   backgroundColor: "$baseCard",
 
   width: "256px",
-
   padding: "0px 24px 20px 24px",
+  boxShadow: "-2px 2px 3px rgb(0 0 0 / 10%)",
 
   "& > div": {
     display: "flex",
@@ -42,6 +42,11 @@ export const Container = styled("div", {
   h4: {
     color: "$baseSubtitle",
     marginBottom: "12px",
+    fontFamily: "$header",
+
+    lineHeight: "130%",
+    fontSize: "$xl2",
+    fontWeight: 700,
   },
 
   p: {
@@ -69,8 +74,11 @@ export const Container = styled("div", {
       fontSize: "$sm2",
 
       strong: {
+        fontFamily: "$header",
+        fontWeight: 700,
         marginLeft: "4px",
-        fontSize: "$xl1",
+        fontSize: "$xl3",
+        color: "$baseSubtitle",
       },
     },
   },
@@ -95,7 +103,6 @@ export const QuantityControl = styled("div", {
     all: "unset",
     color: "$purple",
     fontSize: "$xl2",
-    fontFamily: "$header",
 
     cursor: "pointer",
     "&:hover": {

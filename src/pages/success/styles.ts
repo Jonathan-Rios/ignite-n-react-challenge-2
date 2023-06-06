@@ -25,6 +25,9 @@ export const Content = styled("div", {
 
     h2: {
       color: "$yellowDark",
+      fontFamily: "$header",
+      fontSize: "$xl4",
+      fontWeight: 700,
     },
 
     color: "$baseText",

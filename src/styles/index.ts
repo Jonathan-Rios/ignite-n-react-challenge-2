@@ -47,7 +47,7 @@ export const {
     },
 
     fonts: {
-      header: "Merriweather Sans, sans-serif",
+      header: "Baloo2, sans-serif",
       body: "Roboto, sans-serif",
     },
   },

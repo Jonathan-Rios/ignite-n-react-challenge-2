@@ -9,6 +9,9 @@ export const Container = styled("main", {
 export const Content = styled("div", {
   "& > h3": {
     marginBottom: "3rem",
+    fontFamily: "$header",
+    color: "$baseSubtitle",
+    fontSize: "$xl4",
   },
 
   "& > section": {

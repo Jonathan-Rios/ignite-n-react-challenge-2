@@ -17,6 +17,7 @@ export const Container = styled("div", {
 
     h4: {
       color: "$baseSubtitle",
+      fontWeight: "normal",
     },
 
     "& > div": {
@@ -41,7 +42,7 @@ export const Container = styled("div", {
 
     "& > strong": {
       color: "$baseText",
-      fontSize: "$xl1",
+      fontSize: "$md",
     },
   },
 });

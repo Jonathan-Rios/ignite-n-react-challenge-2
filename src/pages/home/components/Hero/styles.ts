@@ -13,8 +13,8 @@ export const Container = styled("header", {
     flexDirection: "column",
 
     h3: {
-      fontFamily: "Merriweather Sans, sans-serif",
-      //font-family: 'Merriweather Sans', sans-serif;
+      fontFamily: "$header",
+      lineHeight: "130%",
 
       fontWeight: "700",
       fontSize: "$xl5",
