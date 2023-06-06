@@ -17,10 +17,11 @@ export const AddressContent = styled("section", {
     },
 
     div: {
-      color: "$baseSubtitle",
+      color: "$baseText",
       fontSize: "$sm1",
 
       h4: {
+        color: "$baseSubtitle",
         fontSize: "$md",
         fontWeight: "normal",
       },
